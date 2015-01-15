@@ -33,15 +33,15 @@ InfoViz
   R
 
 ### Data Lifecycle
-* Begin with a question       <-----              |
-* Curation ( choosing which data source to use )  |
-* Triage ( prioritization )                       |
-  * Collection                                    |
-    * Generation                                  |
-  * Clean Up                                      |
-  * Storage                                       |
-  * Processing/Analysis                           |
-  * Query + Visualize + Act                 ----- |      
+* Begin with a question
+* Curation ( choosing which data source to use )
+* Triage ( prioritization )
+  * Collection
+    * Generation
+  * Clean Up
+  * Storage
+  * Processing/Analysis
+  * Query + Visualize + Act 
 
 * Request Response Cycle
 * HTTP requests -> HTTP Server -> HTML File
