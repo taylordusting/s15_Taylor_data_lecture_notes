@@ -1,5 +1,6 @@
 # Lecture notes for Data Engineering in Spring 2015
-
+---
+---
 ## Lecture 1 - "Big Data Software Engineering"
 
 ###### Tasked to create presentation on Markdown for Thursday's class.
