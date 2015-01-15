@@ -49,3 +49,7 @@ InfoViz
   * POST
   * PUT
   * DELETE
+---
+## Lecture 2
+
+###### Visit education.github.com for student developer pack.
