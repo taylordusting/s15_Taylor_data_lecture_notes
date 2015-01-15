@@ -3,7 +3,7 @@
 ## Lecture 1 - "Big Data Software Engineering"
 
 ###### Tasked to create presentation on Markdown for Thursday's class.
------
+
 ### What do you think of when we hear the term 'Big Data'?
   * Social Networks
   * Data analytics
