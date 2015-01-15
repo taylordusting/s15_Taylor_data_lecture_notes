@@ -5,17 +5,17 @@
 Tasked to create presentation on Markdown for Thursday's class.
 -----
 ### What do you think of when we hear the term 'Big Data'?
-  Social Networks
-  Data analytics
-    Sampling
-    Machine Learning
-  Storage
-    NoSQL - Originally referred to databases with strictly No SQL
-      Data Modeling is 'wicked hard'
-    Document Databases
-    Graph Databases
-    Key Value Stores
-    Colomnar Stores
+  * Social Networks
+  * Data analytics
+    * Sampling
+    * Machine Learning
+  * Storage
+    * NoSQL - Originally referred to databases with strictly No SQL
+      * Data Modeling is 'wicked hard'
+    * Document Databases
+    * Graph Databases
+    * Key Value Stores
+    * Colomnar Stores
   
 Big Data changed the way we look at data because we don't need to sample as much, we can store everything (clicks, likes, visits, ...)
 
@@ -33,19 +33,19 @@ InfoViz
   R
 
 ### Data Lifecycle
-Begin with a question       <-----              |
-Curation ( choosing which data source to use )  |
-Triage ( prioritization )                       |
-  Collection                                    |
-    Generation                                  |
-  Clean Up                                      |
-  Storage                                       |
-  Processing/Analysis                           |
-  Query + Visualize + Act                 ----- |      
+* Begin with a question       <-----              |
+* Curation ( choosing which data source to use )  |
+* Triage ( prioritization )                       |
+  * Collection                                    |
+    * Generation                                  |
+  * Clean Up                                      |
+  * Storage                                       |
+  * Processing/Analysis                           |
+  * Query + Visualize + Act                 ----- |      
 
-Request Response Cycle
-HTTP requests -> HTTP Server -> HTML File
-  GET
-  POST
-  PUT
-  DELETE
+* Request Response Cycle
+* HTTP requests -> HTTP Server -> HTML File
+  * GET
+  * POST
+  * PUT
+  * DELETE
