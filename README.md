@@ -27,10 +27,10 @@ SQL systems are good at performing arbitrary queries.
 ### Data Collection + Cleaning - collect data, and get it into a format you can actually use
 
 InfoViz
-  D3 - helps visualize data
-  Tablo
-  Excel
-  R
+* D3 - helps visualize data
+* Tablo
+* Excel
+* R
 
 ### Data Lifecycle
 * Begin with a question
@@ -42,7 +42,6 @@ InfoViz
   * Storage
   * Processing/Analysis
   * Query + Visualize + Act 
-
 * Request Response Cycle
 * HTTP requests -> HTTP Server -> HTML File
   * GET
