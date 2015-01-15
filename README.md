@@ -50,6 +50,34 @@ InfoViz
   * PUT
   * DELETE
 ---
-## Lecture 2
+## Lecture 2 - "Services"
 
 ###### Visit education.github.com for student developer pack.
+
+Web browser -> Web server -> (GET, POST, PUT, DELETE, etc...) -> Handler
+
+You have about 2 seconds before you lose most users.
+
+Requests make call to server for an index.html file to load.
+
+RESTful
+* REpresentational State Trasfer
+* URIs as resources
+
+CRUD
+* Create
+* Read
+* Update
+* Destroy
+
+For example, on a /users URL
+GET - Read operation ( /users/{ID} )
+POST - Create a new user
+PUT - Update existing user
+DELETE - Destroy user
+
+To create a service, we must decide, what will my Database look like?
+* IDs
+* Input
+* Output
+* Error handling
