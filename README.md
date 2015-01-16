@@ -48,7 +48,8 @@ InfoViz
   * GET
   * POST
   * PUT
-  * DELETE
+  * DELETE  
+ 
 ---
 ## Lecture 2 - "Services"
 
