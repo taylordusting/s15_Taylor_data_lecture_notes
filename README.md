@@ -71,11 +71,11 @@ CRUD
 * Update
 * Destroy
 
-For example, on a /users URL
-GET - Read operation ( /users/{ID} )
-POST - Create a new user
-PUT - Update existing user
-DELETE - Destroy user
+For example, on a /users URL  
+GET - Read operation ( /users/{ID} )  
+POST - Create a new user  
+PUT - Update existing user  
+DELETE - Destroy user  
 
 To create a service, we must decide, what will my Database look like?
 * IDs
