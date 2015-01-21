@@ -53,7 +53,7 @@ InfoViz
 ---
 ## Lecture 2 - "Services"
 
-###### Visit education.github.com for student developer pack.
+###### Visit education.github.com for student developer pack. (on professor's github)
 
 Web browser -> Web server -> (GET, POST, PUT, DELETE, etc...) -> Handler
 
@@ -82,3 +82,33 @@ To create a service, we must decide, what will my Database look like?
 * Input
 * Output
 * Error handling
+
+---
+## Lecture 3 - "RESTful Web Services"
+
+SOAP - simple object access protocol  
+
+REST is an approach to developing web services that mimic the design of the Web itself.  
+
+Search URL ex: api/1.0/search?q=tattersail  
+
+ISSUES:  
+Security: How to authenticate users?  
+Identity: How are ids assigned to resources?  
+Failure: How to handle failure situations?  
+* Could use HTTP Status codes, or JSON handlers or combination of both
+Persistance: How are resources stored?  
+
+Contacts Web Service  
+Technologies Used:  
+* Sinatra  
+* Rspec  
+* Typhoeus  
+* Node  
+* Express  
+
+Rspec uses methods like 'describe' and 'it'  
+
+
+
+
