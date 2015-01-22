@@ -110,5 +110,20 @@ Technologies Used:
 Rspec uses methods like 'describe' and 'it'  
 
 
+---
+## Lecture 4 - "Git and GitHub presentations"
 
+Git  
+
+Untracked - files not yet in the repo  
+
+'git init' - starts a repository  
+'git clone *remote_repository_address*' - clones existing repo  
+
+HEAD - shortcut for what's the latest commit for the branch I'm on?  
+
+GitHub
+
+
+:shipit:
 
