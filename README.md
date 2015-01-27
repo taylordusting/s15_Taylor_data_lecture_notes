@@ -122,8 +122,35 @@ Untracked - files not yet in the repo
 
 HEAD - shortcut for what's the latest commit for the branch I'm on?  
 
-GitHub
-
-
+GitHub  
 :shipit:
+
+---
+## Lecture 5 - "Node.js"  
+
+http.createServer() - will initiate a server with node  
+
+Javascript is dynmaically typed (no types)  
+
+Event loop - while there are events to be handled, do something.  
+
+Can connect to the event loop with funcitons like:
+* process.nextTick()
+* process.setTimeout()
+* log()
+* etc..  
+
+setTimeout() takes a second parameter that sepcifies how long to wait before the function is executed  
+setInterval() takes a parameter that specifies the interval at which this function should be executed  
+
+
+
+
+
+
+
+
+
+
+
 
