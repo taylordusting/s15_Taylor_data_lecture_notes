@@ -144,9 +144,14 @@ setTimeout() takes a second parameter that sepcifies how long to wait before the
 setInterval() takes a parameter that specifies the interval at which this function should be executed  
 
 
+---
+## Lecture 6 - "Express"  
 
+Express - web applicatin framework written in Javascript for use in Node.js
+* Design influenced by Sinatra
 
-
+npm init creates a package.json  
+npm install will download dependencies
 
 
 
