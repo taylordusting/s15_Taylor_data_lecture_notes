@@ -174,10 +174,68 @@ Core Concepts
 * Directives
   * Directives are ubiquitous in Angular, their primary use is to allow Angular to integrate into HTML in a natural way
   * They can also be used to create reusable components that combine controllers, data, and HTML
-     * A login form for instance, that can be re-used across multiple projects
+     * A _login form_ for instance, that can be re-used across multiple projects
+* Embeddable
+  * Angular can control as much or as little of a web page as you specify
+  * It is easy to embed a small Angular component into an existing page, then expand it out 
+* Injectable
+  * Angular makes use of a concept called dependancy injection
+  * Rather than use a main routine to wire everything together, Angular controllers and services declare their dependencies up front (Spring framework)
+  * Angular at run-time then locates the dependencies and injects them into the component that needs them at run-time  
 
+Modules
+* A module is the primary way to package up a set of controllers into an Angular app.
+* To create a module, give it a name and list its dependencies
+```java
+angluar.module('contactApp',[])
+```
+* This creates a module called contactsApp, and this modules has no dependencies
+* Once you have create a module, you gain a handle to it by calling anglular.modules('contactsApp')
 
+Controllers
+* declared using the controller function
+```java
+<MODULE_NAME>.controller('MainController', [function() {
+  code
+}]);
+```
 
-
-
+```java
+<MODULE>.controller('MainController', ['$http, function($http) {
+  var self = this;
+  self.name = "Dustin";
+  self.update = function() {
+    return $http.get('/api/1.0/update_name').then(fucntion(response))
+      self.name = response.data.new_name;
+      return response;
+    });
+  };
+}]);
+```
+Hello world
+```java
+<!DOCTYPE html>
+<html ng-app="hello">
+  <head>
+    <title> Hello Controller </title>
+  </head>
+  <body ng-controller= "HelloController as c">
+    <p> The message is: <input size="30" type="text" ng-model="c.message"></p>
+    <p> The message is: {{c.message}}</p>
+    <p><button ng-click=c.changeMessage()">Change Message</button></p>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+    <script>
+      angular.module('hello', []).controller('HelloController', [
+        function() {
+          var self = this;
+          self.message = "Hello from the Controller";
+          self.changeMessage = function() {
+            self.message = "Goodbye from the Controller";
+          }
+        }
+      ]);
+    </script>
+  </body>
+</html>
+```
 
