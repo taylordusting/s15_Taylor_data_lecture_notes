@@ -154,6 +154,28 @@ npm init creates a package.json
 npm install will download dependencies
 
 
+---
+## Lecture 7 - "Angular JS"  
+A web application framework on the client side (lives in the browser)  
+* Written in Javascript
+* Implements model-view-controller to produce modular web clients
+* Gets complicated in a hurry, but is VERY powerful
+
+Core Concepts
+* Data bindings
+  * Value of HTML tag can be associated with a model object, when one changes, Angular updates the others automatically.
+* Controllers
+  * Controllers are associated with a portion of yuor HTML and define all of the state methods that can be accessed within that section of the page
+  * With controllers, you can modularize your web app and decompose data and functionality into small chunks
+* Services
+  * Controllers are used to manage data for some portion of a page while it is being displayed. As you move from page to page, controllers will come into and go out of existence all the time
+  * If you need to maintain states between invocations of a controller of if you need to share a state between to controllers, you can create a service
+  * Services are created when an Angular app is intialized
+* Directives
+  * Directives are ubiquitous in Angular, their primary use is to allow Angular to integrate into HTML in a natural way
+  * They can also be used to create reusable components that combine controllers, data, and HTML
+     * A login form for instance, that can be re-used across multiple projects
+
 
 
 
