@@ -239,3 +239,9 @@ Hello world
 </html>
 ```
 
+---
+## Lecture 8 - "Angular JS (cont.)" 
+
+Lots of talk about code.  
+
+
