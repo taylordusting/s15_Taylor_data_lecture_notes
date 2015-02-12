@@ -245,3 +245,16 @@ Hello world
 Lots of talk about code.  
 
 
+---
+## Lecture 9 - "Twitter App" 
+
+Takled about setting up a Twitter App.
+
+---
+## Lecture 10 - "Twitter App (cont.)"
+
+Continued discussing the set up of the app.
+
+
+
+
