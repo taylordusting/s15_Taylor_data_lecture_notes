@@ -255,6 +255,39 @@ Takled about setting up a Twitter App.
 
 Continued discussing the set up of the app.
 
+---
+## Lecture 11 - "Twitter App (cont.)"
+
+Continued discussing the set up of the app.
+
+---
+## Lecture 12 - "Intro to NoSQL"
+
+Homework 3 - fork repo, sync a fork, create branch, add functionality to app, create pull request.  
+
+Sharding a database - need multiple instances of a database server, each with its own server
+
+NoSQL databases are aware of their distributed nature
+*  manages the sharding for you
+*  they are HORIZONTALLY scalable
+*  are fault tolerant
+
+Types of NoSQL databases:
+* Key-value
+* Graphs
+* Columnar
+* Documents
+
+__Key Value stores__ store a simple database that when presented with a string returns an arbitrarily large set of data  
+__Graph Stores__ are optimized to store graph structures rather than table/row/column structures, do graph traversals easily  
+__Columnar Stores__ are able to scale to large amounts of data, very fast writes. Column families consist of rows that have unique row keys
+__Document Stores__ are like a key-value store but with more structure, you insert documents (bags of key value pairs), and then document gets indexed, documents can be grouped into collections, and collections can be grouped into databases.
+
+What about these databases makes them NoSQL?
+* They have no schema
+* You are often free to store anything in these databases
+
+
 
 
 
