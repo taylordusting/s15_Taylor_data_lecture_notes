@@ -288,6 +288,18 @@ What about these databases makes them NoSQL?
 * You are often free to store anything in these databases
 
 
+---
+## Lecture 13 - "CouchDB"  
+CouchDB is a Document NoSQL Database, implemented in Erlang (used in telecommunications)  
+Document databases: self-contained data  
 
+CAP Theorem - Pick ANY TWO  
+There are issues involved when running more than one server:
+* Consistency
+  * clients see the same data even in the presence of concurrent updates
+* Availability
+  * clients are able to read or write the data store when they want
+* Partition Tolerance
+  * database can be split across multiple server  
 
 
