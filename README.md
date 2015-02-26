@@ -290,6 +290,7 @@ What about these databases makes them NoSQL?
 
 ---
 ## Lecture 13 - "CouchDB"  
+
 CouchDB is a Document NoSQL Database, implemented in Erlang (used in telecommunications)  
 Document databases: self-contained data  
 
@@ -301,5 +302,29 @@ There are issues involved when running more than one server:
   * clients are able to read or write the data store when they want
 * Partition Tolerance
   * database can be split across multiple server  
+
+
+---
+## Lecture 14 - "MongoDB" 
+
+mongodb.org/downloads
+
+Homework 3 stuff  
+
+add your file to requests under twitter_framework
+
+def twitter_endpoint
+  "/users/show"  <---- put your endpoint here
+end
+
+def url
+  'https://api/twitter/com/1.1/users/show'
+end
+
+
+
+
+
+
 
 
