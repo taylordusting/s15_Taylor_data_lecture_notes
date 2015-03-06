@@ -322,6 +322,10 @@ def url
 end
 
 
+---
+## Lecture 16 - "More MongoDB" 
+
+http://cu-data-engineering-s15.github.io/lecture_16/#/18 
 
 
 
